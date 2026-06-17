@@ -82,8 +82,10 @@ export default function LandingPage() {
         </div>
       </main>
 
-      <footer className="border-t border-zinc-800 px-6 py-4 text-center text-xs text-zinc-600">
-        © 2026 Sennin.ai — construído com IA, para criadores de conteúdo.
+      <footer className="border-t border-zinc-800 px-6 py-4 flex items-center justify-center gap-4 text-xs text-zinc-600">
+        <span>© 2026 Sennin.ai</span>
+        <Link href="/privacidade" className="hover:text-zinc-400 transition">Política de Privacidade</Link>
+        <Link href="/excluir-dados" className="hover:text-zinc-400 transition">Excluir meus dados</Link>
       </footer>
     </div>
   )
